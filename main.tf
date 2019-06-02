@@ -4,7 +4,7 @@ provider "aws" {
   region = "${var.region}"
 
 }
-
+#create S3 for backend storing state
 terraform {
   backend "s3" {
     encrypt = true
