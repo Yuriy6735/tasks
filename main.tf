@@ -14,12 +14,12 @@ terraform {
   }
 }
 
-resource "aws_instance" "example1" {
+resource "aws_instance" "example2" {
   ami = "ami-01e24be29428c15b2"
   instance_type = "t2.micro"
 
   tags {
-    Name = "super puper instance"
+    Name = "puper instance"
   }
 }
 
@@ -28,7 +28,7 @@ resource "aws_instance" "example2" {
   instance_type = "t2.micro"
 
   tags {
-    Name = "super puper2 instance"
+    Name = "puper2 instance"
   }
 }
 
